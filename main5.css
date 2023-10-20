@@ -1,0 +1,375 @@
+/* Normalize */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* End normalize */
+
+/* Start Header Section */
+.wrapper {
+  background-image: url("./Images5/background\ color.png");
+  box-shadow: 0px 4px 16px 0px rgba(75, 0, 129, 0.26);
+  margin-bottom: 146px;
+}
+.header {
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+.header-list {
+  gap: 0 20px;
+}
+.header-list-item {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 12px 15px;
+  opacity: 0.7;
+}
+.header-list-item:hover {
+  color: black;
+  opacity: 1;
+}
+.active {
+  color: #4a99d3;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 12px 15px;
+  opacity: 0, 8;
+}
+.active:hover {
+  opacity: 1;
+  color: rgb(15, 132, 234);
+}
+
+/* End Header  Section  */
+/*  Start Hero Section */
+.hero {
+  padding-bottom: 66px;
+}
+.hero-left {
+  width: 48%;
+}
+.hero-title {
+  color: #260041;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+.hero-title-crimson {
+  color: #d81b60;
+}
+.hero-subtitle {
+  color: #260041;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 60px;
+}
+.btn {
+  background-color: #4a99d3;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 5px;
+}
+.btn.btn-left {
+  margin-right: 20px;
+}
+.button-hero:hover {
+  cursor: pointer;
+}
+/* End Hero Section */
+
+/* Main Section */
+.cards-title {
+  color: #260041;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 1.8px;
+  width: 32%;
+  margin-bottom: 84px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  height: 400px;
+  width: 260px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 5px 20px 50px 0px rgba(74, 153, 211, 0.2);
+  padding: 48px;
+  transform: all ease 0.1s;
+}
+.card:hover {
+  transform: scale(1.12);
+}
+.card > img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 56px;
+}
+
+.card h3 {
+  color: var(--Text-color, #0f001a);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  margin-bottom: 16px;
+}
+.card p {
+  color: var(--Text-color, #0f001a);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 62px;
+}
+.card a {
+  display: flex;
+  align-items: center;
+}
+.card a span {
+  margin-right: 15px;
+  color: #4a99d3;
+}
+.help {
+  margin-bottom: 90px;
+}
+/* End Main Section */
+
+/* Start Work Section */
+
+.works {
+  width: 1440px;
+  height: 476px;
+  background: rgba(74, 153, 211, 0.1);
+  margin: 0 auto;
+  margin-bottom: 87px;
+}
+.work-title {
+  color: #4a99d3;
+  text-align: center;
+  font-family: Objective;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 88px;
+  padding-top: 90px;
+}
+
+.work-card {
+  text-align: center;
+}
+
+.work-card img {
+  margin-bottom: 30px;
+}
+
+.work-h3 {
+  color: var(--Text-color, #0f001a);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.work-p {
+  color: var(--Text-color, #0f001a);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* End Work Section */
+
+/* Start client Section */
+.client {
+  margin-bottom: 158px;
+}
+.client-title {
+  color: var(--Text-color, #0f001a);
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+
+.client-img {
+  margin-right: 100px;
+}
+
+.client-quote {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.client-subtitle {
+  color: var(--Text-color, #0f001a);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.5;
+  margin-bottom: 40px;
+}
+
+.client-bottom {
+  color: var(--Text-color, #0f001a);
+  font-family: Objective;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* End Client Section */
+
+/* Start Download Section */
+.download {
+  margin-bottom: 120px;
+}
+
+.download-right {
+  margin-left: 70px;
+}
+.download-right h3 {
+  color: var(--Text-color, #0f001a);
+  text-align: center;
+  font-family: Objective;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.download-right p {
+  width: 444px;
+  color: var(--Text-color, #0f001a);
+  text-align: center;
+  font-family: Objective;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 56px;
+  opacity: 0.7;
+}
+
+.download-btn {
+  width: 172.745px;
+  height: 60px;
+  background-color: #0f001a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.download-btn:hover {
+  cursor: pointer;
+}
+
+.download-btn.left {
+  margin-left: 60px;
+}
+
+.download-btn.right {
+  margin-left: 10px;
+}
+
+/* End Download Section */
+
+/* Start Footer Section */
+.footer {
+  background: #4a99d3;
+  border-bottom: 1px solid white;
+  padding-bottom: 50px;
+}
+
+.footer-item {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-span {
+  color: #fff;
+  font-family: Objective;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1px solid white;
+}
+
+.footer ul li {
+  margin-bottom: 12px;
+}
+
+.footer-a {
+  color: #fff;
+  font-family: Objective;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-p {
+  width: 340px;
+  color: #fff;
+  font-family: Objective;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-foot{
+   background: #4a99d3;
+}
+.social{
+    padding: 20px; 
+}
+.copy {
+  color: #fff;
+  font-family: Objective;
+  font-size: 10.41px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* End Footer Section */
